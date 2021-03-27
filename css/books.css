@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[5];
+      grid-template-rows: repeat(5, 1fr);
+}
+
+.book, .view_choice, .list {
+  background-color: lightgrey;
+  margin: 10px 50px 10px 50px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.navigate_container, .options_container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+.navigate_container .home_left, .options_container .home_left {
+  background-color: lightgrey;
+  margin: 10px 100px 10px 50px;
+  text-align: center;
+}
+
+.navigate_container .tape_centre, .options_container .tape_centre {
+  background-color: lightgrey;
+  margin: 10px 100px 10px 100px;
+  text-align: center;
+}
+
+.navigate_container .library_right, .options_container .library_right {
+  background-color: lightgrey;
+  margin: 10px 50px 10px 100px;
+  text-align: center;
+}
+
+.view_choice {
+  background-color: lightgrey;
+  margin: 10px 50px 10px 50px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.options_container .genre_left {
+  background-color: lightgrey;
+  margin: 10px 100px 10px 50px;
+  text-align: center;
+}
+
+.options_container .view_all_centre {
+  background-color: lightgrey;
+  margin: 10px 100px 10px 100px;
+  text-align: center;
+}
+
+.options_container .author_right {
+  background-color: lightgrey;
+  margin: 10px 50px 10px 100px;
+  text-align: center;
+}
+/*# sourceMappingURL=books.css.map */

@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+// body {
+//     background-color: lightgrey;
+// }
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    
+}
+
+.member_page {
+    background-color: lightgrey;
+    margin: 10px 50px 10px 50px;
+    text-align: center;
+    font-size: 2rem;
+}
+.about_us {
+    background-color: lightgrey;
+    margin: 10px 50px 10px 50px;
+    text-align: center;
+    font-size: 2rem;
+}
+.row3_container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    // background-color: goldenrod;
+}
+
+.row3_container .exchange_left {
+    background-color: lightgrey;
+    margin: 10px 100px 10px 50px;
+    text-align: center;
+}
+
+.row3_container .conditions_right {
+    background-color: lightgrey;
+    margin: 10px 50px 10px 100px;
+    text-align: center;
+}
+.sign_in {
+    background-color: lightgrey;
+    margin: 10px 25% 10px 25%;
+    text-align: center;
+}
+.row5_container {
+    // background-color: purple;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+.row5_container .member_signin_left {
+    background-color: lightgrey;
+    margin: 10px 100px 10px 50px;
+    text-align: center;
+}
+.row5_container .member_wannabe_right {
+    background-color: lightgrey;
+    margin: 10px 50px 10px 100px;
+    text-align: center;
+}
+.row6_container {
+    // background-color: green;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    margin: 0, auto;
+    position: relative;
+    text-align: center;
+    // background: lightgrey;
+}
+
+
+.row6_container .books_left {
+    background-color: lightgrey;
+    margin: 10px 100px 10px 50px;
+    text-align: center;
+}
+.row6_container .tapes_center {
+    background-color: lightgrey;
+    margin: 10px 100px 10px 100px;
+    text-align: center;
+}
+.row6_container .library_right {
+    background-color: lightgrey;
+    margin: 10px 50px 10px 100px;
+    text-align: center;
+}
